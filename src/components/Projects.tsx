@@ -16,6 +16,7 @@ const Projects = () => {
       ],
       techStack: ["HTML", "CSS", "Python", "APIs"],
       githubLink: "https://github.com/Shreya-idle",
+      liveLink: "https://agritech-trailblazers.streamlit.app/",
     },
     {
       title: "Myntra HackerRamp Project",
@@ -112,6 +113,16 @@ const Projects = () => {
                     <Github className="h-4 w-4" />
                     View Code
                   </Button>
+                  {project.liveLink && (
+                    <Button 
+                      size="sm" 
+                      className="gap-2"
+                      onClick={() => window.open(project.liveLink, '_blank')}
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                      Live Demo
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>
