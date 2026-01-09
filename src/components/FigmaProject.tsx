@@ -32,11 +32,11 @@ const FigmaProject = () => {
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {images.map((image, index) => (
-                <div key={index} className="min-w-full aspect-video flex items-center justify-center bg-card">
+                <div key={index} className="min-w-full">
                   <img 
                     src={image} 
                     alt={`Food Website UI Design ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto object-contain"
                   />
                 </div>
               ))}
