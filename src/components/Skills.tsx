@@ -6,17 +6,22 @@ const Skills = () => {
     {
       category: "Languages & Core",
       skills: ["Python", "C++", "Machine Learning", "Deep Learning"],
-      color: "bg-primary/10 text-primary border-primary/30",
+      color: "bg-primary/20 text-primary border-primary/50",
     },
     {
       category: "Web Development",
-      skills: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind CSS"],
-      color: "bg-accent/10 text-accent border-accent/30",
+      skills: ["React.js", "Next.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind CSS"],
+      color: "bg-blue-500/20 text-blue-400 border-blue-500/50",
     },
     {
       category: "AI/ML Frameworks",
       skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Neural Networks", "NLP"],
-      color: "bg-secondary/10 text-secondary border-secondary/30",
+      color: "bg-purple-500/20 text-purple-400 border-purple-500/50",
+    },
+    {
+      category: "Tools & Platforms",
+      skills: ["Firebase", "Flutter"],
+      color: "bg-orange-500/20 text-orange-400 border-orange-500/50",
     },
   ];
 
