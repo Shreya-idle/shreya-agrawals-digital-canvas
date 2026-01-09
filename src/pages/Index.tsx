@@ -6,7 +6,7 @@ import Experience from "@/components/Experience";
 import Research from "@/components/Research";
 import Hackathons from "@/components/Hackathons";
 import Projects from "@/components/Projects";
-import DesignWork from "@/components/DesignWork";
+
 import FigmaProject from "@/components/FigmaProject";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -22,7 +22,7 @@ const Index = () => {
       <Research />
       <Hackathons />
       <Projects />
-      <DesignWork />
+      
       <FigmaProject />
       <Contact />
       <Footer />
