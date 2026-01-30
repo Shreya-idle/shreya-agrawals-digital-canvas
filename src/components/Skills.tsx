@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       category: "Tools & Platforms",
-      skills: ["Firebase", "Flutter", "PostgreSQL", "System Design"],
+      skills: ["Firebase", "Flutter", "PostgreSQL", "MongoDB", "System Design"],
       color: "bg-orange-500/20 text-orange-400 border-orange-500/50",
     },
   ];
